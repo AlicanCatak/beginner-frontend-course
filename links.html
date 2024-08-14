@@ -1,0 +1,72 @@
+<html lang="tr">
+  <body>
+    <!-- Başlık 2 seviyesinde bir başlık oluşturuyoruz -->
+    <h2>Example</h2>
+    <!-- Bu paragraf içinde bir bağlantı etiketi (a) var. Bağlantı Patika.dev'e gidiyor -->
+    <p><a href="https://www.patika.dev">Patika.dev'i ziyaret et</a></p>
+
+    <!-- Yeni bir başlık 2 oluşturuyoruz: Bu bölümde HTML bağlantı özelliklerini inceleyeceğiz -->
+    <h2>HTML Links Attributes</h2>
+
+    <!-- Bu bölümde target özelliğini ele alıyoruz -->
+    <h3>The <code>target</code> Attribute</h3>
+    <!-- target="_self" bağlantıyı aynı pencerede açar -->
+    <p><a href="https://www.patika.dev" target="_self">Bağlantıyı mevcut pencerede aç</a></p>
+    <!-- target="_blank" bağlantıyı yeni bir pencerede veya sekmede açar -->
+    <p><a href="https://www.patika.dev" target="_blank">Bağlantıyı yeni bir pencerede aç</a></p>
+
+    <!-- Başlık 2: Mutlak URL'ler ile Göreceli URL'ler arasındaki fark -->
+    <h2>Absolute URLs vs. Relative URLs</h2>
+
+    <!-- Başlık 3: Mutlak URL örnekleri -->
+    <h3>Absolute URLs</h3>
+    <!-- Bu bağlantı Apple'ın web sitesine gidiyor -->
+    <p><a href="https://www.apple.com">Apple</a></p>
+    <!-- Bu bağlantı Google'ın web sitesine gidiyor -->
+    <p><a href="https://www.google.com">Google</a></p>
+
+    <!-- Başlık 3: Göreceli URL örneği -->
+    <h3>Relative URLs</h3>
+    <!-- Bu bağlantı, aynı dizinde yer alan başka bir sayfaya gider (links.html dosyasına) -->
+    <p><a href="/links.html">Bağlantılar sayfası</a></p>
+
+    <!-- Başlık 2: URI Şemaları hakkında bilgi -->
+    <h2>URI Schema</h2>
+    <!-- E-posta gönderme bağlantısı, mailto şeması ile -->
+    <p><a href="mailto:ornek@example.com">E-posta Gönder</a></p>
+    <!-- Telefon ile arama bağlantısı, tel şeması ile -->
+    <p><a href="tel:+90501234567">Telefon ile Ara</a></p>
+    <!-- SMS gönderme bağlantısı, sms şeması ile. Gövde kısmında "Merhaba!" mesajı ile -->
+    <p><a href="sms:+90501234567?body=Merhaba!">SMS Gönder</a></p>
+
+    <!-- Başlık 2: Yer imleri (Bookmarks) -->
+    <h2>Bookmarks</h2>
+    <!-- Bu bağlantı, sayfadaki "Giriş Konusu" bölümüne gider -->
+    <p><a href="#chapter1">Giriş Konusuna atla</a></p>
+    <!-- Bu bağlantı, sayfadaki "Web Standartları" bölümüne gider -->
+    <p><a href="#chapter2">Web Standartları Konusuna atla</a></p>
+    <!-- Bu bağlantı, sayfadaki "İleri Seviye Teknikler" bölümüne gider -->
+    <p><a href="#chapter3">İleri Seviye Teknikler Konusuna atla</a></p>
+
+    <!-- Bu kısım "Giriş Konusu" olarak adlandırılıyor, id="chapter1" ile tanımlandı -->
+    <h3 id="chapter1">Giriş Konusu</h3>
+    <!-- Giriş bölümünde, HTML'in temelleri anlatılıyor -->
+    <p>
+      Bu bölümde, HTML'in temel yapısını ve işlevini anlamaya başlayacağız. HTML (HyperText Markup Language), World Wide Web'in yapı taşlarından biridir ve web sayfalarının iskeletini oluşturur. Bir HTML belgesi, tarayıcılar tarafından yorumlanarak görüntülenir ve metin, görüntü, video gibi çeşitli içeriklerin sunulmasını sağlar. HTML, basit etiketler ve yapılarla çalışır; örneğin, başlıklar `<h1>`-`<h6>` etiketleriyle belirtilir, paragraflar `<p>` etiketiyle oluşturulur, ve bağlantılar `<a>` etiketiyle tanımlanır. Bu temel yapı taşları, web sayfalarının düzgün ve düzenli bir şekilde sunulmasını sağlar. Ayrıca, HTML dokümanları, stil ve davranış eklemek için CSS ve JavaScript ile birlikte çalışabilir, bu da sayfanın görünümünü ve işlevselliğini zenginleştirir.
+    </p>
+
+    <!-- Bu kısım "Web Standartları" olarak adlandırılıyor, id="chapter2" ile tanımlandı -->
+    <h3 id="chapter2">Web Standartları</h3>
+    <!-- Web Standartları bölümü, internetin tutarlı çalışmasını sağlayan kuralları anlatıyor -->
+    <p>
+      Web standartları, web teknolojilerinin uyumlu ve etkili bir şekilde çalışmasını sağlamak için oluşturulmuş kurallar ve yönergeler bütünüdür. Bu standartlar, World Wide Web Consortium (W3C) gibi organizasyonlar tarafından geliştirilir ve yaygınlaştırılır. Web standartları, HTML, CSS, ve JavaScript gibi dillerin nasıl kullanılacağını belirler ve tarayıcıların bu dilleri doğru bir şekilde yorumlamasına yardımcı olur. Standartların benimsenmesi, web sitelerinin tüm cihazlarda ve tarayıcılarda tutarlı bir şekilde görüntülenmesini sağlar. Aynı zamanda, web erişilebilirliği, güvenlik ve performans gibi konularda da önemli rehberlik sunar. Bu bölümde, web standartlarının tarihçesi, neden önemli oldukları ve geliştiricilerin bu standartlara nasıl uyum sağlaması gerektiği üzerine detaylı bir inceleme yapacağız. Ayrıca, bu standartların uygulanması ve uyumun sağlanması için kullanılan araçlar ve teknikler hakkında da bilgi edineceksiniz.
+    </p>
+
+    <!-- Bu kısım "İleri Seviye Teknikler" olarak adlandırılıyor, id="chapter3" ile tanımlandı -->
+    <h3 id="chapter3">İleri Seviye Teknikler</h3>
+    <!-- İleri Seviye Teknikler bölümü, modern web geliştirme stratejilerini anlatıyor -->
+    <p>
+      Bu bölümde, modern web geliştirme süreçlerinde kullanılan ileri seviye teknikleri keşfedeceğiz. Günümüzde, web geliştirme sadece estetik bir tasarım ve temel işlevsellikten ibaret değildir; aynı zamanda, kullanıcı deneyimi, erişilebilirlik, performans ve güvenlik gibi kritik unsurlar da göz önünde bulundurulmalıdır. Responsive design (duyarlı tasarım), bir web sitesinin farklı cihazlarda ve ekran boyutlarında optimal bir şekilde çalışmasını sağlar. Bu tasarım yaklaşımı, esnek ızgaralar, esnek görseller ve media queries kullanılarak gerçekleştirilir. Ayrıca, performans optimizasyonu, sayfa yükleme sürelerini azaltmak ve kullanıcı deneyimini iyileştirmek için büyük önem taşır. Bununla birlikte, erişilebilirlik (accessibility) de web geliştirme sürecinde dikkate alınması gereken önemli bir faktördür; bu, engelli kullanıcıların web sitelerini rahatça kullanabilmelerini sağlamak anlamına gelir. Son olarak, SEO (Arama Motoru Optimizasyonu) teknikleri ile web sitenizin arama motorlarında daha görünür hale gelmesi sağlanabilir. Bu bölümde, bu ileri seviye tekniklerin her birine derinlemesine bakacak ve gerçek dünya örnekleriyle nasıl uygulanabileceğini öğreneceksiniz.
+    </p>
+  </body>
+</html>
